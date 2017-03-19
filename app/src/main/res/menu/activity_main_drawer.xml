@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_match"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/nav_match" />
+
+        <item
+            android:id="@+id/nav_team_configuration"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/team_configuration" />
+
+    </group>
+
+    <item android:title="@string/about_developer">
+        <menu>
+            <item
+
+                android:id="@+id/nav_github"
+                android:icon="@drawable/github"
+                android:title="Github" />
+            <item
+                android:id="@+id/nav_google"
+                android:icon="@drawable/google_plus"
+                android:title="Google+" />
+        </menu>
+    </item>
+
+</menu>

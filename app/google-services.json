@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "227854326290",
+    "firebase_url": "https://scorup-34853.firebaseio.com",
+    "project_id": "scorup-34853",
+    "storage_bucket": "scorup-34853.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227854326290:android:3668e45b7c484753",
+        "android_client_info": {
+          "package_name": "com.maulikp.com.scoreup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227854326290-n46lch3uhse17lmuihsm1n7visc98vue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maulikp.com.scoreup",
+            "certificate_hash": "8b66c0f8dbb5f85c1004caaca18a1fe49a5125a9"
+          }
+        },
+        {
+          "client_id": "227854326290-k7f7eron9a8u5pv221948emkb9ag4jgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WKq9cOFFX6M_V9Wd6rviRvNI8gkSG58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227854326290-k7f7eron9a8u5pv221948emkb9ag4jgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

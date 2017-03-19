@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ScoreUp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="create_match_card">Create Cricket Match Scoreboard By Pressing "+" FAB  </string>
+    <string name="team_configuration">Team Configuration</string>
+    <string name="about_developer">About Developer</string>
+    <string name="content_discription_cricket_match">Cricket Match</string>
+    <string name="title_activity_team_configuration">TeamConfiguration</string>
+    <string name="nav_match">Match</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signed_out">Signed out</string>
+    <string name="google_title_text">Google</string>
+    <string name="web_api">227854326290-k7f7eron9a8u5pv221948emkb9ag4jgh.apps.googleusercontent.com</string>
+    <string name="nav_match_description">All your match here</string>
+    <string name="team_configuration_description">Manage your team</string>
+    <string name="drawer_item_section_header">About</string>
+    <string name="create">CREATE</string>
+    <string name="string_create">CREATE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="no_of_players">No. of Players</string>
+    <string name="team_name">Team Name</string>
+    <string name="list_empty">Create your team by pressing  \" + \"  FAB</string>
+</resources>
