@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="8dp"
@@ -9,7 +10,7 @@
     android:foreground="?android:attr/selectableItemBackground"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    app:cardBackgroundColor="@color/grey_300"
+    app:cardBackgroundColor="@color/grey_100"
     app:cardCornerRadius="1dp"
     app:cardElevation="2dp">
 
@@ -18,18 +19,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="18dp"
+            android:layout_height="0dp"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
         <TextView
             android:id="@+id/team_name_recycle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="team Name"
             android:textAlignment="textStart"
             android:textColor="@color/common_google_signin_btn_text_dark_focused"
             android:textSize="18sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintLeft_toRightOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <TextView
             android:id="@+id/cricket"
@@ -41,17 +55,21 @@
             android:text="cricket"
             android:textAlignment="textStart"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_name_recycle" />
+            app:layout_constraintLeft_toRightOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/team_name_recycle"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
         <TextView
             android:id="@+id/no_of_players_recycle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:text="11"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,RtlHardcoded" />
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>

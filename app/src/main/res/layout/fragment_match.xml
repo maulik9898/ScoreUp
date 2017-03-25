@@ -21,7 +21,7 @@
         app:elevation="6dp"
         app:fabSize="normal"
         app:pressedTranslationZ="12dp"
-        app:rippleColor="@color/md_pink_A400"
+        app:rippleColor="@color/colorAccent"
         app:srcCompat="@drawable/ic_add_black_24dp" />
 
     <android.support.v7.widget.RecyclerView

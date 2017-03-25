@@ -39,6 +39,11 @@
             android:label="Create Team">
 
         </activity>
+        <activity
+            android:name=".MatchInfo"
+            android:label="Create Match">
+
+        </activity>
     </application>
 
 </manifest>

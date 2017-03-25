@@ -29,4 +29,5 @@
     <string name="no_of_players">No. of Players</string>
     <string name="team_name">Team Name</string>
     <string name="list_empty">Create your team by pressing  \" + \"  FAB</string>
+    <string name="extra_1_run_for_noball">Extra +1 run for NoBall</string>
 </resources>

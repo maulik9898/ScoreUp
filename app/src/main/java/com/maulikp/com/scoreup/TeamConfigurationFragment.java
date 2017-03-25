@@ -79,7 +79,7 @@ public class TeamConfigurationFragment extends Fragment {
                 initialCount -= 1;
 
 
-                Snackbar.make(teamListrecycle, "Note deleted", Snackbar.LENGTH_SHORT)
+                Snackbar.make(teamListrecycle, "Team deleted", Snackbar.LENGTH_SHORT)
 
                         .setAction("UNDO", new View.OnClickListener() {
 
